@@ -1,0 +1,32 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 5vw);
+  overflow-y: scroll;
+  position: sticky;
+  top: 5vw;
+  margin-bottom: 2vw;
+}
+.sidebarWrapper {
+  padding: 2vw;
+}
+
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+  cursor: pointer;
+}
+
+.sidebarIcon {
+  margin-right: 1vw;
+  color: #4169e1;
+}
+.sidebarHr {
+  margin: 2vw 0;
+}
